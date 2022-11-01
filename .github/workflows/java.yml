@@ -88,6 +88,6 @@ jobs:
 
       #### BEGIN junit5
       - name: docker junit5
-        working-directory: java/junit5
+        working-directory: .
         run: "sh .scripts/assure_failing_test.sh './docker_test.sh' 'AppTestt > fail() FAILED'"
       #### END junit5
