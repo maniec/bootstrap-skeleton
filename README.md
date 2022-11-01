@@ -1,4 +1,5 @@
 # Bootstrap Skeleton
+Based on [kata-bootstraps](https://github.com/swkBerlin/kata-bootstraps)
 
 Template project for quick start coding by applying practices and principles
 - TDD
