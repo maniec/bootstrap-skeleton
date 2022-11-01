@@ -1,4 +1,7 @@
 # Bootstrap Skeleton
+
+[![java-ci-badge]][ci-actions]
+
 Based on [kata-bootstraps](https://github.com/swkBerlin/kata-bootstraps)
 
 Template project for quick start coding by applying practices and principles
@@ -44,3 +47,6 @@ gradle wrapper
 git add -f gradle/wrapper/gradle-wrapper.jar
 ./gradlew idea
 ```
+
+[java-ci-badge]:../bootstrap-skeleton/workflows/Java%20CI/badge.svg "CI build status"
+[ci-actions]:../bootstrap-skeleton/actions
