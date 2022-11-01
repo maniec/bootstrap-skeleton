@@ -51,12 +51,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      #### BEGIN cucumber
-      - name: build cucumber with maven
-        working-directory: .
-        run: mvn -B clean package --file pom.xml
-      #### END cucumber
-
 
       #### BEGIN junit5
       - name: build junit5 with maven
