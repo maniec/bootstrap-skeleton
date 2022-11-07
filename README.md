@@ -46,6 +46,7 @@ gradle wrapper
 # force adding the wrapper .jar that might be excluded from .gitignore
 git add -f gradle/wrapper/gradle-wrapper.jar
 ./gradlew idea
+./gradlew build
 ```
 
 [java-ci-badge]:../bootstrap-skeleton/workflows/Java%20CI/badge.svg "CI build status"
